@@ -3,12 +3,12 @@ import random
 
 def guess_number():
     print("Здравсвтуйте! Попробуйте угадать число!")
-    number = random.randint(1, 100)
+    number = random.randint(1, 150)
     attempts = 0
 
     while True:
         try:
-            guess = int(input("Угадайте число от 1 до 100: "))
+            guess = int(input("Угадайте число от 1 до 150: "))
             attempts += 1
 
             if guess < number:
