@@ -2,7 +2,7 @@ import random
 
 
 def guess_number():
-    print("Игра 'Угадай число'!")
+    print("Здравсвтуйте! Попробуйте угадать число!")
     number = random.randint(1, 100)
     attempts = 0
 
