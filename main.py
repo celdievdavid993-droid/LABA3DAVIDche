@@ -20,7 +20,7 @@ def guess_number():
                 break
 
         except ValueError:
-            print("Пожалуйста, введите целое число!")
+            print("БЫСТРО введите целое число!")
 
 
 if __name__ == "__main__":
